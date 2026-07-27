@@ -49,7 +49,7 @@ export function Footer() {
       </div>
       <div><h4>留学方向</h4><Link href="/high-school">德国高中</Link><Link href="/university">德国大学</Link><Link href="/process">服务流程</Link></div>
       <div><h4>GLC盛途教育</h4><Link href="/cases">服务场景</Link><Link href="/about">关于我们</Link><Link href="/appointment">预约咨询</Link></div>
-      <div><h4>联系方式</h4><a href="mailto:shengtujy@163.com">shengtujy@163.com</a><a href="tel:+8613527596068">135 2759 6068</a><p>重庆市大渡口区<br /><small>重庆盛途教育咨询有限公司</small></p></div>
+      <div><h4>联系方式</h4><a href="mailto:shengtujy@163.com">shengtujy@163.com</a><a href="tel:+8613527596068">135 2759 6068</a><Link href="/contact">高中项目微信：GLC210411</Link><p>重庆市大渡口区<br /><small>重庆盛途教育咨询有限公司</small></p></div>
     </div>
     <div className="container footer-bottom"><span>© 2026 GLC盛途教育</span><span>All Rights Reserved. · <Link href="/privacy">隐私政策</Link> · <Link href="/legal">法律声明</Link></span></div>
   </footer>;
