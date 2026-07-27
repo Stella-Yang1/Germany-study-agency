@@ -10,8 +10,8 @@ export function LeadForm({ fields, submitLabel = "提交咨询", successTitle = 
     e.preventDefault();
     const form = new FormData(e.currentTarget);
     const lines = fields.map(field => `${field.label}：${String(form.get(field.name) ?? "").trim() || "未填写"}`);
-    const subject = encodeURIComponent(`德境教育官网咨询｜${String(form.get("name") ?? "未署名")}`);
-    const body = encodeURIComponent(`您好，我希望咨询德国留学服务。\n\n${lines.join("\n")}\n\n此邮件由德境教育官网表单生成。`);
+    const subject = encodeURIComponent(`GLC盛途教育官网咨询｜${String(form.get("name") ?? "未署名")}`);
+    const body = encodeURIComponent(`您好，我希望咨询德国留学服务。\n\n${lines.join("\n")}\n\n此邮件由GLC盛途教育官网表单生成。`);
     window.location.href = `mailto:shengtujy@163.com?subject=${subject}&body=${body}`;
     setSent(true);
   }
@@ -23,7 +23,7 @@ export function LeadForm({ fields, submitLabel = "提交咨询", successTitle = 
         : field.type === "textarea" ? <textarea name={field.name} rows={5} placeholder={field.placeholder} />
         : <input name={field.name} type={field.type ?? "text"} placeholder={field.placeholder} required={["name","phone","wechat"].includes(field.name)} />}
       </label>)}</div>
-      <label className="consent"><input type="checkbox" required /> <span>我已阅读<a href="/privacy" target="_blank">隐私政策</a>，并同意德境教育为回复本次咨询处理以上信息。</span></label>
+      <label className="consent"><input type="checkbox" required /> <span>我已阅读<a href="/privacy" target="_blank">隐私政策</a>，并同意GLC盛途教育为回复本次咨询处理以上信息。</span></label>
       <button className="button primary form-submit" type="submit">{submitLabel} <Arrow /></button>
       <small className="form-note">提交后将调用您设备上的邮件应用，并预先填写发送至 shengtujy@163.com 的咨询邮件；网站本身不会保存表单内容。您也可以直接致电 135 2759 6068。</small>
     </form>

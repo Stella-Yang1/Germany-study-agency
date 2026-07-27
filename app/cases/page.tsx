@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { BottomCta, Disclaimer, PageShell, SubHero } from "../site";
-export const metadata: Metadata = { title:"服务场景", description:"德境教育德国高中、大学申请与未成年人在德支持的典型服务场景。" };
+export const metadata: Metadata = { title:"服务场景", description:"GLC盛途教育德国高中、大学申请与未成年人在德支持的典型服务场景。" };
 const cases=[
   {name:"高中申请",title:"公立及私立文理中学规划",tags:"择校 · 语言 · 签证",text:"根据学生能力、家庭意愿和目标州的实际安排，筛选 1–3 所公立或私立学校，推进申请并协助准备签证。",decision:"年级衔接、德语基础与学校要求是否匹配",service:"学校建议、申请材料、签证准备与学业规划",boundary:"录取及签证由学校和主管机构独立决定",image:"/images/german-university.jpg"},
   {name:"在德支持",title:"未成年学生监护与生活协调",tags:"监护 · 学校 · 反馈",text:"围绕未成年学生在德期间的学校沟通、月度反馈、基础事务与突发情况提供协调支持。",decision:"监护、住宿、学校和家庭之间的责任边界",service:"监护文件协助、学校沟通、定期反馈与应急协调",boundary:"具体职责、期限及费用以正式合同为准",image:"/images/berlin-university.jpg"},

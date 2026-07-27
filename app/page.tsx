@@ -50,7 +50,7 @@ export default function Home() {
     </section>
 
     <section className="section container">
-      <SectionHeading kicker="WARUM DEWEG" title="为什么选择德境教育" text="我们不把申请看成一次材料递交，而是把每个阶段放进完整的成长路径中。" />
+      <SectionHeading kicker="WARUM GLC" title="为什么选择GLC盛途教育" text="我们不把申请看成一次材料递交，而是把每个阶段放进完整的成长路径中。" />
       <div className="advantage-grid">{advantages.map((item, i) => <article key={item}><span>0{i + 1}</span><h3>{item}</h3><p>{["从当前阶段倒推未来选择，让语言、学业与申请相互衔接。","理解德国教育体系与在地生活语境，提供更贴近真实环境的判断。","固定顾问持续沟通，重要选择有依据、有记录、有反馈。","服务范围、流程节点与责任边界在合作开始前清晰说明。","从评估、材料、递交到结果跟进，关键节点保持连续协作。","关注录取之后的适应与发展，让规划延伸到在德学习阶段。"][i]}</p></article>)}</div>
     </section>
 

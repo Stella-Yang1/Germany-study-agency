@@ -19,9 +19,9 @@ export function Plus() { return <span aria-hidden="true">＋</span>; }
 export function Header() {
   return <header className="header">
     <div className="container nav-wrap">
-      <Link className="logo" href="/" aria-label="德境教育首页">
-        <span className="logo-mark">D<span>E</span></span>
-        <span><b>德境教育</b><small>DEWEG BILDUNG</small></span>
+      <Link className="logo" href="/" aria-label="GLC盛途教育首页">
+        <span className="logo-mark">GLC</span>
+        <span><b>GLC盛途教育</b><small>GERMANY STUDY PROGRAM</small></span>
       </Link>
       <nav className="desktop-nav" aria-label="主导航">
         {nav.slice(0, 7).map(([label, href]) => <Link href={href} key={href}>{label}</Link>)}
@@ -42,16 +42,16 @@ export function Footer() {
     <div className="container footer-grid">
       <div className="footer-brand">
         <Link className="logo inverse" href="/">
-          <span className="logo-mark">D<span>E</span></span>
-          <span><b>德境教育</b><small>DEWEG BILDUNG</small></span>
+          <span className="logo-mark">GLC</span>
+          <span><b>GLC盛途教育</b><small>GERMANY STUDY PROGRAM</small></span>
         </Link>
         <p>专注德国教育体系的长期升学规划与申请服务。</p>
       </div>
       <div><h4>留学方向</h4><Link href="/high-school">德国高中</Link><Link href="/university">德国大学</Link><Link href="/process">服务流程</Link></div>
-      <div><h4>德境教育</h4><Link href="/cases">服务场景</Link><Link href="/about">关于我们</Link><Link href="/appointment">预约咨询</Link></div>
+      <div><h4>GLC盛途教育</h4><Link href="/cases">服务场景</Link><Link href="/about">关于我们</Link><Link href="/appointment">预约咨询</Link></div>
       <div><h4>联系方式</h4><a href="mailto:shengtujy@163.com">shengtujy@163.com</a><a href="tel:+8613527596068">135 2759 6068</a><p>重庆市大渡口区<br /><small>重庆盛途教育咨询有限公司</small></p></div>
     </div>
-    <div className="container footer-bottom"><span>© 2026 DEWEG BILDUNG</span><span>All Rights Reserved. · <Link href="/privacy">隐私政策</Link> · <Link href="/legal">法律声明</Link></span></div>
+    <div className="container footer-bottom"><span>© 2026 GLC盛途教育</span><span>All Rights Reserved. · <Link href="/privacy">隐私政策</Link> · <Link href="/legal">法律声明</Link></span></div>
   </footer>;
 }
 
@@ -70,7 +70,7 @@ export function SubHero({ kicker, title, intro, index, image, alt }: { kicker: s
     <div className="subhero-shade" />
     <div className="container subhero-inner">
       <div><p className="eyebrow light">{kicker}</p><h1>{title}</h1><p>{intro}</p></div>
-      <span className="page-index">{index}<small>DEWEG BILDUNG</small></span>
+      <span className="page-index">{index}<small>GLC盛途教育</small></span>
     </div>
   </section>;
 }

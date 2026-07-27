@@ -36,7 +36,7 @@ export default function HighSchool(){return <PageShell>
     <div className="school-grid">{schools.map(([title,text],i)=><article key={title}><span>0{i+1}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
   </section>
   <section className="section soft-section"><div className="container"><SectionHeading kicker="VORAUSSETZUNGEN" title="申请条件" text="判断是否适合，不只看成绩。年龄、语言、学业衔接和独立生活准备同样重要。"/><div className="detail-list">{requirements.map(([title,text])=><article key={title}><h3>{title}</h3><p>{text}</p></article>)}</div></div></section>
-  <section className="section container"><SectionHeading kicker="KOSTEN" title="项目费用参考" text="以下为德境教育当前德国高中项目的参考收费，用于初步预算判断。人民币与欧元项目分别计价。"/>
+  <section className="section container"><SectionHeading kicker="KOSTEN" title="项目费用参考" text="以下为GLC盛途教育当前德国高中项目的参考收费，用于初步预算判断。人民币与欧元项目分别计价。"/>
     <div className="pricing-grid">{publicPlans.map(plan=><article className="pricing-card" key={plan.state}><p className="eyebrow">{plan.state}</p><h3>{plan.school}</h3><div>{plan.costs.map(([name,value])=><p key={name}><span>{name}</span><b>{value}</b></p>)}</div></article>)}
       <article className="pricing-card private-card"><p className="eyebrow">PRIVATSCHULE</p><h3>私立文理中学</h3><div><p><span>申请与签证服务</span><b>人民币 28,000 元 / 项目</b></p><p><span>学费、住宿及生活费</span><b>约 28,000–56,000 欧元 / 学年</b></p></div></article>
     </div>

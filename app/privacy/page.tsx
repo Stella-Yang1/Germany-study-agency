@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PageShell, SubHero } from "../site";
 
-export const metadata: Metadata = { title: "隐私政策", description: "德境教育网站咨询信息处理说明。" };
+export const metadata: Metadata = { title: "隐私政策", description: "GLC盛途教育网站咨询信息处理说明。" };
 
 export default function PrivacyPage() {
   return <PageShell>
