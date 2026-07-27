@@ -1,6 +1,6 @@
 # 德境教育 · 德国留学中介官网
 
-一个以中文为主、预留德语语言入口的德国留学机构多页面官网。采用 Next.js 兼容的 Vinext + React + TypeScript，适配手机与桌面端，可继续部署到 Vercel、GitHub Pages（静态导出需额外配置）或其他支持 Node/静态站点的平台。
+一个以中文为主、预留德语语言入口的德国留学机构多页面官网。采用标准 Next.js + React + TypeScript，适配手机与桌面端，可直接部署到 Vercel，也可在增加静态导出配置后部署到 GitHub Pages。
 
 ## 页面
 
