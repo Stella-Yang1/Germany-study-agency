@@ -63,8 +63,8 @@ export default function Home() {
     </section>
 
     <section className="section container">
-      <SectionHeading kicker="FÄLLE & WEGE" title="每一份结果，都来自不同的路径。" text="以下为结构化占位案例，不含虚构人物或录取背书，后续可直接替换为经授权的真实内容。" />
-      <div className="home-cases">{["Case A", "Case B", "Case C"].map((item, i) => <Link href="/cases" key={item}><span>0{i + 1}</span><div><small>{["高中长期规划", "本科与预科路径", "硕士项目申请"][i]}</small><h3>{item}</h3><p>{["聚焦语言节奏、学校类型与家庭准备。", "聚焦入学资格、APS 与专业方向。", "聚焦课程匹配、选校逻辑与申请材料。"][i]}</p></div><Arrow /></Link>)}</div>
+      <SectionHeading kicker="ANWENDUNGSFÄLLE" title="服务发生在每一个关键节点。" text="基于公司已明确的业务范围，介绍高中申请、未成年人在德支持与大学申请三个典型服务场景。" />
+      <div className="home-cases">{["高中申请", "在德支持", "大学申请"].map((item, i) => <Link href="/cases" key={item}><span>0{i + 1}</span><div><small>{["公立及私立文理中学", "未成年学生监护协调", "语言班与大学路径"][i]}</small><h3>{item}</h3><p>{["聚焦择校、语言准备与签证衔接。", "聚焦学校沟通、月度反馈与突发情况协调。", "聚焦入学资格、语言要求与申请节点。"][i]}</p></div><Arrow /></Link>)}</div>
     </section>
     <BottomCta />
   </PageShell>;

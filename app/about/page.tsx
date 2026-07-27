@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { BottomCta, Disclaimer, PageShell, SectionHeading, SubHero } from "../site";
 export const metadata: Metadata = { title:"关于我们", description:"了解德境教育的品牌理念、创立初心和教育价值观。" };
 export default function About(){return <PageShell><SubHero kicker="ÜBER UNS" title="关于德境教育" intro="教育不是一次中介服务，而是一段需要方向、判断与长期陪伴的成长规划。" index="05" image="/images/munich-city.jpg" alt="慕尼黑城市建筑"/>
@@ -7,4 +6,4 @@ export default function About(){return <PageShell><SubHero kicker="ÜBER UNS" ti
   <section className="section soft-section"><div className="container two-col"><div><SectionHeading kicker="WARUM DEWEG" title="为什么创立德境教育"/></div><div className="prose"><p>德国教育体系路径多元、规则严谨，也伴随州际差异、语言门槛和复杂的申请节点。信息很多，但真正困难的是判断：哪些与自己有关，哪些选择值得投入。</p><p>德境教育希望减少不必要的信息差和焦虑。我们用可核对的信息、清晰的流程和长期视角，帮助学生与家庭看见选择背后的前提、成本和风险。</p></div></div></section>
   <section className="section container company-profile"><SectionHeading kicker="UNTERNEHMEN" title="运营主体" text="品牌与签约主体清晰分开，是建立长期信任的第一步。"/><div className="company-facts"><p><span>品牌名称</span><b>德境教育 · DEWEG BILDUNG</b></p><p><span>运营主体</span><b>重庆盛途教育咨询有限公司</b></p><p><span>办公地址</span><b>重庆市大渡口区湖榕路22号4幢16-16</b></p><p><span>服务范围</span><b>德国语言班、高中与大学申请、未成年学生在德支持</b></p></div><Disclaimer>网站展示的是品牌与服务介绍。具体服务内容、收费、责任边界及退款安排，以客户最终签署的合同和补充协议为准。</Disclaimer></section>
   <section className="section container"><SectionHeading kicker="WERTE" title="我们的价值观"/><div className="values-large"><article><span>01</span><h3>真实</h3><p>事实与经验分开表达，不用承诺结果换取信任。</p></article><article><span>02</span><h3>审慎</h3><p>尊重每个学生的差异，给出有条件、有边界的建议。</p></article><article><span>03</span><h3>长期</h3><p>把语言、学业、适应和职业放在连续的成长路径中。</p></article></div></section>
-  <section className="team-placeholder"><Image src="/images/german-campus.jpg" alt="德境教育团队照片预留位置" fill sizes="100vw"/><div className="container"><p>TEAM · BERLIN</p><h2>团队照片位置</h2><span>正式上线前替换为经授权的真实团队照片与成员介绍</span></div></section><BottomCta/></PageShell>}
+  <section className="company-band"><div className="container"><p className="eyebrow light">VERANTWORTUNG</p><h2>把服务内容、费用与责任边界<br/>写进正式合同。</h2><p>咨询电话 135 2759 6068 · 公司邮箱 shengtujy@163.com</p></div></section><BottomCta/></PageShell>}

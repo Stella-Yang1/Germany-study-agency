@@ -7,7 +7,7 @@ export const nav = [
   ["德国高中", "/high-school"],
   ["德国大学", "/university"],
   ["服务流程", "/process"],
-  ["成功案例", "/cases"],
+  ["服务场景", "/cases"],
   ["关于我们", "/about"],
   ["联系我们", "/contact"],
   ["预约咨询", "/appointment"],
@@ -48,7 +48,7 @@ export function Footer() {
         <p>专注德国教育体系的长期升学规划与申请服务。</p>
       </div>
       <div><h4>留学方向</h4><Link href="/high-school">德国高中</Link><Link href="/university">德国大学</Link><Link href="/process">服务流程</Link></div>
-      <div><h4>德境教育</h4><Link href="/cases">成功案例</Link><Link href="/about">关于我们</Link><Link href="/appointment">预约咨询</Link></div>
+      <div><h4>德境教育</h4><Link href="/cases">服务场景</Link><Link href="/about">关于我们</Link><Link href="/appointment">预约咨询</Link></div>
       <div><h4>联系方式</h4><a href="mailto:shengtujy@163.com">shengtujy@163.com</a><a href="tel:+8613527596068">135 2759 6068</a><p>重庆市大渡口区<br /><small>重庆盛途教育咨询有限公司</small></p></div>
     </div>
     <div className="container footer-bottom"><span>© 2026 DEWEG BILDUNG</span><span>All Rights Reserved. · <Link href="/privacy">隐私政策</Link> · <Link href="/legal">法律声明</Link></span></div>
