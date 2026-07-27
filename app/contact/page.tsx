@@ -25,7 +25,7 @@ export default function Contact(){return <PageShell><SubHero kicker="KONTAKT" ti
         </div>
         <div className="social-qr-grid">
           <article><div className="qr-image"><Image src="/images/glc-official-account-qr.jpg" alt="GLC盛途教育公众号二维码" fill sizes="220px" /></div><h3>GLC盛途教育公众号</h3><p>使用微信扫码关注</p></article>
-          <article><div className="qr-image"><Image src="/images/glc-xiaohongshu-qr.jpg" alt="GLC德国高中留学小红书号二维码" fill sizes="220px" /></div><h3>GLC德国高中留学</h3><p>小红书号：560605810</p></article>
+          <article><div className="qr-image"><Image src="/images/glc-xiaohongshu-qr.jpg" alt="GLC德国高中留学小红书号二维码" fill sizes="220px" /></div><h3>GLC德国高中留学</h3><p>小红书号：63012592634</p></article>
         </div>
       </div>
       <p className="contact-source-note">公众号二维码与小红书二维码用于关注官方内容；添加老师个人微信请使用上方对应微信号。</p>
