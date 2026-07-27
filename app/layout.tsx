@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
-const siteUrl = "https://germany-study-agency-wxiv.vercel.app";
+const siteUrl = "https://germany-study-agency.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
