@@ -24,7 +24,7 @@ export function Header({ locale = "zh" }: { locale?: Locale }) {
         <span className="logo-mark">GLC</span>
         <span><b>GLC盛途教育</b><small>GERMANY STUDY PROGRAM</small></span>
       </Link>
-      <nav className="desktop-nav" aria-label="主导航">
+      <nav className="desktop-nav" aria-label={locale === "de" ? "Hauptnavigation" : locale === "en" ? "Main navigation" : "主导航"}>
         {nav.slice(0, 7).map(([label, href]) => <Link href={href} key={href}>{label}</Link>)}
       </nav>
       <div className="nav-tools">
