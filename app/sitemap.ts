@@ -4,15 +4,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   return ["", "/de", "/en"].flatMap((locale) =>
     routes.map((route) => ({
-      url: `https://glc-shengtu-education.vercel.app${locale}${route}`,
+      url: `https://glc-shengtu-education.vercel.app${locale}${locale && !route ? "/home" : route}`,
       lastModified: now,
       changeFrequency: route === "" ? "weekly" : "monthly",
       priority: route === "" ? 1 : route === "/appointment" ? 0.9 : 0.8,
       alternates: {
         languages: {
           "zh-CN": `https://glc-shengtu-education.vercel.app${route}`,
-          "de-DE": `https://glc-shengtu-education.vercel.app/de${route}`,
-          en: `https://glc-shengtu-education.vercel.app/en${route}`,
+          "de-DE": `https://glc-shengtu-education.vercel.app/de${route || "/home"}`,
+          en: `https://glc-shengtu-education.vercel.app/en${route || "/home"}`,
         },
       },
     }))

@@ -10,7 +10,7 @@ const labels = {
   en: { nav: ["Home","Schools","University","Process","Service cases","About","Contact","Consultation"], cta:"Book now", direction:"Study pathways", brand:"GLC Shengtu", contact:"Contact", privacy:"Privacy", legal:"Legal notice", tagline:"Long-term education planning and application support for Germany.", schoolWechat:"School programme WeChat: GLC210411" },
 } as const;
 const paths = ["/","/high-school","/university","/process","/cases","/about","/contact","/appointment"] as const;
-const hrefFor = (locale: Locale, path: string) => locale === "zh" ? path : `/${locale}${path === "/" ? "" : path}`;
+const hrefFor = (locale: Locale, path: string) => locale === "zh" ? path : `/${locale}${path === "/" ? "/home" : path}`;
 
 export function Arrow() { return <span aria-hidden="true">↗</span>; }
 export function Plus() { return <span aria-hidden="true">＋</span>; }

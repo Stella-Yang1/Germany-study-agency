@@ -10,7 +10,7 @@ const locales = [
 
 function localizedPath(pathname: string, locale: string) {
   const clean = pathname.replace(/^\/(de|en)(?=\/|$)/, "") || "/";
-  return locale === "zh" ? clean : `/${locale}${clean === "/" ? "" : clean}`;
+  return locale === "zh" ? clean : `/${locale}${clean === "/" ? "/home" : clean}`;
 }
 
 export function LanguageSwitcher({ current }: { current: "zh" | "de" | "en" }) {
